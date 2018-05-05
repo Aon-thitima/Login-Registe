@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loging</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#aa").fadeIn("slow");
+                $("#bb").fadeIn(3000);
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <center>
+        <nav>
+            <a class="navbar-brand" href="index.html">Play with HTML</a>
+            <div>
+                <button type="button" class="btn btn-info" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    MENU
+                </button>
+                <br>
+                <br>
+            </div>
+            <div class="collapse" id="collapsibleNavbar">
+                <button type="button" class="text-light" id="aa">
+                    <a href="Longin.html">Home Ling in</a>
+                </button>
+                <br>
+                <br>
+                <button type="button" class="text-light" id="bb">
+                    <a href="register_page.html">Home Sing in</a>
+                </button>
+            </div>
+        </nav>
+    </center>
+    <div id="aa">
+        <form action="" name="regis">
+            <div style="padding:5%; margin-left:30%; margin-right: 30%;">
+                <div class="form-group">
+                    <label for="myuser">Email/Username</label>
+                    <input type="myuser" class="form-control" id="myuser" placeholder="Email/Username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="mypass">Password</label>
+                    <input type="pass" class="form-control" id="mypass" placeholder="Password" name="Password">
+                </div>
+                <button type="button" class="btn btn-success" onclick="Loging()">Loging</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
